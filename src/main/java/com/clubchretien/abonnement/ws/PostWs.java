@@ -1,0 +1,1 @@
+package com.clubchretien.abonnement.ws;

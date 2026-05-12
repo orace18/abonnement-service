@@ -1,0 +1,14 @@
+package com.clubchretien.abonnement.configs;
+
+import org.springframework.beans.factory.annotation.Value;
+import org.springframework.context.annotation.Configuration;
+import lombok.Getter;
+
+@Configuration
+@Getter
+public class JwtConfig {
+
+    @Value("${jwt.secret}")
+    private String secret;
+}
+

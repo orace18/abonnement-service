@@ -1,0 +1,42 @@
+# Maven
+.mvn/
+mvnw
+mvnw.cmd
+pom.xml
+
+# Source code (not needed in final image)
+src/
+
+# IDE files
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+
+# Git
+.git/
+.gitignore
+.gitattributes
+
+# Documentation
+README.md
+*.md
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+
+# Test files
+target/test-classes/
+target/surefire-reports/
+
+# Keep only the JAR file
+#!target/*.jar

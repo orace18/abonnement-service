@@ -1,0 +1,8 @@
+{
+  "properties": [
+    {
+      "name": "firebase.config.gson",
+      "type": "java.lang.String",
+      "description": "Description for firebase.config.gson."
+  }
+] }
